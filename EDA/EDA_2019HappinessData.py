@@ -57,7 +57,10 @@ new_df_2019 = createCondensedDf(df_2019)
 
 # Plotting 2019 happiness data 
 
-axs = df_2019.plot.area(x="Score", figsize=(12, 4), subplots=True)
+# Plot 1
+axs = df_2019.plot.area(x="Score", figsize=(12, 4), subplots=True) 
+
+# Plot 2
 axs = df_2019.plot.area(x="Type",figsize=(4, 4), subplots=True )
 
 plt.show()
